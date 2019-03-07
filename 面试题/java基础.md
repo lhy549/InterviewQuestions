@@ -24,16 +24,9 @@
   - [java 中的Math.round(-1.5)等于多少](#java中的Math.round-1.5--等于多少)
   - [String 属于基础的数据类型吗？](#String属于基础的数据类型吗)
   - [Java中的基本数据类型](#Java中的基本数据类型)
-  - [== 和 equals 的区别是什么？](#==和equals的区别是什么？)
-  - [Stringstr="i"与String str=new String("i")一样吗？](#Stringstr="i"与Stringstr=newString("i")一样吗)
-  - [](#)
-  - [](#)
-  - [](#)
-  - [](#)
-
-
-
-
+  - [== 和 equals 的区别是什么？](#==和equals的区别是什么)
+  - [Stringstr="i"与String str=new String("i")一样吗?](#Stringstr="i"与Stringstr=newString("i")一样吗)
+ 
 ---
 
 ## 多态的实现机制是什么
@@ -291,7 +284,8 @@ floor就是直接去掉小数保留整数，即如果参数是正数则小数部
 
 ## String str="i"与 String str=new String("i")一样吗？
 
-
+1. 当使用String str="abc",这种方式时，先去内存的Heap中找是否存在"abc"这个字符串，若存在，则将地址引用。若不存在则创建。
+2. 当使用String str=new String("abc");时，不管事先是否存在"abc"，每次都会创建其新的对象。
 
 
 
