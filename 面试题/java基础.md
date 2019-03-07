@@ -6,7 +6,7 @@
 
 **Contents**
 
-- [java基础巩固笔记(1)-反射](#java基础巩固笔记1-反射)
+- [java基础常见面试题](#java基础笔记常见面试题)
   - [多态的实现机制是什么](#多态的实现机制是什么)
   - [多态有两种表现方式](#多态有两种表现方式)
   - [抽象类和接口有什么异同？](#抽象类和接口有什么异同)
@@ -25,7 +25,7 @@
   - [String属于基础的数据类型吗？](#String属于基础的数据类型吗)
   - [Java中的基本数据类型](#Java中的基本数据类型)
   - [==和equals的区别是什么？](#==和equals的区别是什么)
-  - [Stringstr="i"与String str=new String("i")一样吗?](#Stringstr="i"与Stringstr=newString("i")一样吗)
+  - [Stringstr="i"与String str=new String("i")一样吗?](#String str="i"与String str=new String("i")一样吗)
  
 ---
 
