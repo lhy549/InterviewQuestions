@@ -63,7 +63,7 @@
 - 平台无关性
 - 具有较好的安全性和健壮性
 
-## final 在 java 中有什么作用？
+## final在java中有什么作用？
 
 final关键字可以用来修饰类、方法和变量（包括成员变量和局部变量）
 
@@ -100,12 +100,12 @@ final关键字可以用来修饰类、方法和变量（包括成员变量和局
 如果一个类中有了一个抽象方法，那么这个类必须声明为抽象类，否则编译通不过。
 
 
-## java 中 IO 流分为几种？
+## java中IO流分为几种？
 ![](https://i.imgur.com/gRLU9lC.png)
 ![](https://i.imgur.com/UENezuJ.jpg)
 
-## 抽象类能使用 final 修饰吗？
-a v 
+## 抽象类能使用final修饰吗？
+
 ## Files的常用方法都有哪些？
 
 java.io.File类主要是完成了文件夹管理的命名、查询文件属性和处理目录等到操作它不进行文件夹内容的读取操作。以下描述了File类的主要常用方法。 
@@ -176,7 +176,7 @@ File.GetAttributes 读取文件属性
 
 File.SetAttributes 设置文件属性
 
-## String 类的常用方法都有那些?
+## String类的常用方法都有那些?
 
 **String构造方法**
 
@@ -256,13 +256,13 @@ join()方法将数组中的所有元素边接成一个字符串
  
     reverseString("hello"); // => olleh
 
-## java 中的 Math.round(-1.5) 等于多少？
+## java中的Math.round(-1.5) 等于多少？
 
 round是四舍五入，注意负数5是舍的，例如：Math.round(1.5)值是2，Math.round(-1.5)值是-1；
 floor就是直接去掉小数保留整数，即如果参数是正数则小数部分全舍，参数是负数则小数部分全入。 例如：Math.floor(2.6)的值是2，Math.floor(-2.1)的值是-3
 
 
-## String 属于基础的数据类型吗？
+## String属于基础的数据类型吗？
 
 不是
 
@@ -277,12 +277,12 @@ floor就是直接去掉小数保留整数，即如果参数是正数则小数部
 -  char
 -  boolean
 
-## == 和 equals 的区别是什么？
+## ==和equals的区别是什么？
 
 - ==号比较的是内存地址
 - equals()比较的是字符串的内容
 
-## String str="i"与 String str=new String("i")一样吗？
+## String str="i"与String str=new String("i")一样吗？
 
 1. 当使用String str="abc",这种方式时，先去内存的Heap中找是否存在"abc"这个字符串，若存在，则将地址引用。若不存在则创建。
 2. 当使用String str=new String("abc");时，不管事先是否存在"abc"，每次都会创建其新的对象。
