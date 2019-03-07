@@ -19,12 +19,12 @@
   - [java中IO流分为几种?](#java中IO流分为几种)
   - [抽象类能使用final修饰吗？](#抽象类能使用final修饰吗)
   - [Files的常用方法都有哪些？](#Files的常用方法都有哪些)
-  - [String 类的常用方法都有那些](#String类的常用方法都有那些)
+  - [String类的常用方法都有那些](#String类的常用方法都有那些)
   - [如何将字符串反转？](#如何将字符串反转)
-  - [java 中的Math.round(-1.5)等于多少](#java中的Math.round-1.5--等于多少)
-  - [String 属于基础的数据类型吗？](#String属于基础的数据类型吗)
+  - [java中的Math.round(-1.5)等于多少](#java中的Math.round(-1.5)等于多少)
+  - [String属于基础的数据类型吗？](#String属于基础的数据类型吗)
   - [Java中的基本数据类型](#Java中的基本数据类型)
-  - [== 和 equals 的区别是什么？](#==和equals的区别是什么)
+  - [==和equals的区别是什么？](#==和equals的区别是什么)
   - [Stringstr="i"与String str=new String("i")一样吗?](#Stringstr="i"与Stringstr=newString("i")一样吗)
  
 ---
